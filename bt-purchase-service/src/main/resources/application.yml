@@ -1,0 +1,9 @@
+server:
+  port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9998/eureka/  
+spring:
+  application:
+    name: service-purchase
